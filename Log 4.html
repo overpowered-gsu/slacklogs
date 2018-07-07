@@ -1,0 +1,1994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Export Channel</title>
+  <link rel="stylesheet" href="/static/styles.css" charset="utf-8" />
+  <style media="screen">
+    body {
+      color: #333333;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .message {
+      margin: 1em 0;
+    }
+
+    .timestamp {
+      font-size: 0.75em;
+      font-weight: 100;
+      color: #afafaf;
+      padding-right: 1em;
+    }
+
+    .attachments {
+      border-left: 3px solid #afafaf;
+      padding: 1em;
+      margin-left: 1em;
+    }
+
+    .attachment:hover {
+      opacity: 1;
+    }
+
+    .attachment {
+      margin-bottom: .5em;
+      opacity: 0.5;
+    }
+
+    .attachment-header {
+      padding: .25em;
+      border: 1px solid;
+      display: inline-block;
+      border-radius: 10px;
+      margin-bottom: 1em;
+      color: #7891FF;
+      font-size: .75em;
+    }
+
+    .attachment .title {
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>Channel history</h2>
+  </section>
+
+  <section>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T00:08:19Z</span>
+        <strong>noah.yasarturk</strong>: I’ve created an availability chart on the drive- “A5 Week Availability”; please fill it out before Monday
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T00:47:53Z</span>
+        <strong>ckhan3</strong>: &lt;@UB72FRHK9&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB72FRHK9/FBHSRFCGN/image.png|User Info in MySQL&gt; and commented: I see you all!
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T01:17:30Z</span>
+        <strong>demelocaio</strong>: &lt;@UB72FRHK9&gt; good stuff!! 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:30:21Z</span>
+        <strong>ckhan3</strong>: Good Morning. I filled in my availability and also went over the smart sheet. The tasks in the smart sheet assigned to me seemed to be skipping over a few things. Hence I’m noting the things I’ll be doing this week along with estimated dates to everyone that’s relying on me knows what’s happening when. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:30:57Z</span>
+        <strong>ckhan3</strong>: 1. I’ll get all the tables (Tableau and SmartBulb) ready by Tuesday
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:31:44Z</span>
+        <strong>ckhan3</strong>: 2. That includes cleaning the archive data and importing to the DB
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:32:03Z</span>
+        <strong>ckhan3</strong>: 3. I’ll complete Machine Learning package by Thursday 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:32:48Z</span>
+        <strong>ckhan3</strong>: All that will give enough time to Sean to create his charts 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:33:17Z</span>
+        <strong>noah.yasarturk</strong>: In which case I’ll input the training data Sunday night
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:33:39Z</span>
+        <strong>noah.yasarturk</strong>: *which I suppose is tonight
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:33:57Z</span>
+        <strong>ckhan3</strong>: And Caio should do his homework on alert messages to the website so that it’s ready to implement on Thursday 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:34:09Z</span>
+        <strong>ckhan3</strong>: Import data from where to where?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:34:13Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB73LGZQF&gt; ^
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:34:51Z</span>
+        <strong>noah.yasarturk</strong>: Take what we have saved to drive and input it to the database; that’s necessary to train our prediction model, isn’t it?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:35:42Z</span>
+        <strong>ckhan3</strong>: Yes it is but you need to create the table for that first. The data goes in a table. Will you be working on that?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:36:37Z</span>
+        <strong>noah.yasarturk</strong>: Precisely what I intend; I need to be familiar with this. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:37:41Z</span>
+        <strong>ckhan3</strong>: In that case let me know the training attributes and labels - if it’s going to be binary or multilabeled. I’ll pick Algorithms accordingly 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:39:30Z</span>
+        <strong>noah.yasarturk</strong>: I’ll update you tonight; I’ll need to research this and play with walktime. It’d help us expedite the process if I can ask Mussa Tuesday what algorithms he’d recommend; he seems to have a wealth of info on machine learning.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T12:44:29Z</span>
+        <strong>ckhan3</strong>: But he’ll have a wealth of questions for you too in order to be able to answer. Sure, do your research and let me know. Appreciate the help.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T15:09:34Z</span>
+        <strong>demelocaio</strong>: &lt;@UB72FRHK9&gt; I know we went over it but what would the pop up say? Login/registration successful? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-01T15:11:40Z</span>
+        <strong>ckhan3</strong>: It will spit out the result from ML
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T10:31:28Z</span>
+        <strong>noah.yasarturk</strong>: I’ve been unable to input the training data tonight/this morning (outside requirements), but should be able to take a look at it once more around 6:30 PM when I’m back from class again. I’ll be able to/will be looking over this week’s tasks and seeing if I can put a dent in them some time between 2-5:25 today (during my Web Programming class following our presentation). 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:30:37Z</span>
+        <strong>ckhan3</strong>: Morning. Thanks Noah
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:31:02Z</span>
+        <strong>ckhan3</strong>: Ricky were you able to install bash?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:32:18Z</span>
+        <strong>ckhan3</strong>: &lt;@UB73LGZQF&gt; to better answer your question from yesterday, the ML results will be saved in a text file. Please research on how to retrieve data from text file and display it as a pop up on website 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:33:25Z</span>
+        <strong>ckhan3</strong>: Also let me know what other methods there are in available to display something through pop up method 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:34:18Z</span>
+        <strong>ckhan3</strong>: &lt;!everyone&gt; since Noah is a bit pre-occupied till the rest of the day, I’ll go ahead and set some deadlines. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:36:36Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5B3G71N&gt; the meat of this week’s work falls on you. Please have a dummy dashboard ready (with knowledge on how to connect to MySQL) by Tuesday. Then you can connect it to DB on Wednesday and embed on the website by Thursday. For now if creating a map is too cumbersome then ignore it for this week
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:38:00Z</span>
+        <strong>ckhan3</strong>: &lt;@UB73LGZQF&gt; please have all the webpages ready by Wed. If you’re unsure of how many webpages need to be created start a dialog with Sean and Ricky to find out their needs. Please ensure that all tabs/links/options on all pages are functional 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:39:34Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5ES17S4&gt; please start planning on how you’d implement your bulb. Finalize the plan this week and ensure all pre-reqs are met so that when it’s time to implement next week you’re good to go. Again the main responsibility of the documents fall on your shoulders this week too
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T11:41:55Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; it would be good experience for you to learn the database side of things. However, I’d really appreciate if you could master the middleware - php side of the software first so that I won’t have to dedicate extra time there in addition to taking care of the backend. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T12:06:42Z</span>
+        <strong>ricky.le05</strong>: I have not installed Bash yet, will do when I wake up, as for documents and planning gotcha :ok_hand:
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T12:07:15Z</span>
+        <strong>ricky.le05</strong>: Let me know if you guys need assistance on anything, I’ll be free to help (but not sure if I’ll be able to help)
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:11:35Z</span>
+        <strong>ricky.le05</strong>: I couldn’t install bash on our server because it’s a previous version of windows 10 before the anniversary edition, so I just installed Git Bash. There’s more limitations on Git Bash, but all the functionalities we need are there (minus being able to run scripts for windows programs through the Shell). Y’all can now use UNIX commands on cmd and the git Bash Shell 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:12:18Z</span>
+        <strong>ckhan3</strong>: We can use task scheduler to schedule jobs right?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:12:18Z</span>
+        <strong>ricky.le05</strong>: Can I reboot the server or will that mess things up? Curious
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:13:06Z</span>
+        <strong>ricky.le05</strong>: I believe so but not sure
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:13:10Z</span>
+        <strong>ckhan3</strong>: Can you research on how to schedule to start a program and make it execute anything?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:13:28Z</span>
+        <strong>ckhan3</strong>: Go ahead and restart. It’s not a production server.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:14:25Z</span>
+        <strong>ckhan3</strong>: Going back to my previous point, I know how to install and use ML libraries but I’m worried about how to automate the steps.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:15:10Z</span>
+        <strong>ricky.le05</strong>: From a quick google search you can use bash scripts to run windows task scheduler to do that
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:20:04Z</span>
+        <strong>noah.yasarturk</strong>: If anyone is somewhat unfamiliar with git repos, branches, and commits, I have a great tutorial site
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:21:06Z</span>
+        <strong>ckhan3</strong>: So if I install say Orange (ML software) then task manager then start the program auto on a schedule and make it execute some tasks? Is that possible without any intervention from our side?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:23:25Z</span>
+        <strong>ricky.le05</strong>: As far as I know it’s limited to just starting the program on a schedule, unless Orange has shell functions 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:23:47Z</span>
+        <strong>ricky.le05</strong>: I know for certain programs like the Arduino IDE you can but I’m not sure about orange 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:24:54Z</span>
+        <strong>ckhan3</strong>: Ok. Even that’s a start. If not Orange we can look at Scikit. But Orange has a beautiful interface. In any case, any research you can do along that line is greatly appreciated 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:26:49Z</span>
+        <strong>ricky.le05</strong>: Oh btw I set the default text editor to vim (in git bash), but I think you can also use nano and np++ if y’all prefer 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T13:27:29Z</span>
+        <strong>ckhan3</strong>: Vim or gedit will do. Thanks 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T15:01:47Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; if you’re comfortable manipulating the database side of things and identifying what’s pertinent to the machine learning algorithm, I absolutely can learn and implement PHP. I realize I absolutely need to have the data simulator up and running asap so that we can implement the ML. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T15:02:22Z</span>
+        <strong>noah.yasarturk</strong>: I’ll still be asking you questions tomorrow prior to class if possible
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T15:05:53Z</span>
+        <strong>ckhan3</strong>: No data simulation required. We already have the data. I can create the table and you can import the data from csv to the table. You can look into that. I’ll let you know which columns from the csv we can use for ML. Ask me any questions you might have. I’m heavily pre-occupied with a Spark GraphX problem I’m grappling with. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T15:06:34Z</span>
+        <strong>ckhan3</strong>: Work with Caio and Sean to make the dashboard application seamless please
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-02T19:47:48Z</span>
+        <strong>noah.yasarturk</strong>: I&#39;m adding the new deadlines to the SmartSheet and considering how I can best work with you &lt;@UB5B3G71N&gt; to implement the dashboard. By all means please ask me for help; I don&#39;t know what I&#39;m doing either but I&#39;m sure that we can overcome this together.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T01:43:54Z</span>
+        <strong>noah.yasarturk</strong>: I’m going to try and be on campus at Aderhold very early. &lt;@UB73LGZQF&gt; are your credentials for Bootstrap Super Duper Drag-n-Dropper the same as what’s in my dms?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T02:00:10Z</span>
+        <strong>noah.yasarturk</strong>: Is anyone else on our server? I’m about to pop on to investigate a few things
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T02:19:57Z</span>
+        <strong>demelocaio</strong>: I forgot what my log in is. You want it? You need the key too if 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T02:20:07Z</span>
+        <strong>demelocaio</strong>: **
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T02:39:06Z</span>
+        <strong>noah.yasarturk</strong>: Just as long as you can give it to me by after tomorrow’s class, that’s just what I need.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T02:58:57Z</span>
+        <strong>noah.yasarturk</strong>: Downloading notepad++ to walktime.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:29:32Z</span>
+        <strong>ricky.le05</strong>: Surprisingly I’m gonna be on campus in about 10 minutes, anybody at aderhold yet?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:31:11Z</span>
+        <strong>ckhan3</strong>: I’m in the registrars office 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:43:08Z</span>
+        <strong>ckhan3</strong>: And now to the Grad services office
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:45:51Z</span>
+        <strong>ricky.le05</strong>: On campus now, omw to aderhold
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:54:28Z</span>
+        <strong>noah.yasarturk</strong>: Be there at about 9:25
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:56:46Z</span>
+        <strong>ckhan3</strong>: Coming to aderhold now 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T12:57:24Z</span>
+        <strong>ckhan3</strong>: Which floor are you on?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T13:01:10Z</span>
+        <strong>ricky.le05</strong>: I am on floor 4
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T13:23:15Z</span>
+        <strong>noah.yasarturk</strong>: Right by Aderhold. Stopping by Dunkin’ Donuts first. Anybody want coffee or donuts?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T13:24:00Z</span>
+        <strong>ricky.le05</strong>: Anymore caffeine and I’ll be jumping off the walls haha
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T13:24:10Z</span>
+        <strong>noah.yasarturk</strong>: That’s the goal
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T13:24:23Z</span>
+        <strong>ricky.le05</strong>: :sweat_smile:
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T18:22:00Z</span>
+        <strong>noah.yasarturk</strong>: Server back up. Haven’t emailed Paul. Are we looking to upsize the \\?\Volume{45871b4a-.....} Volume memory? Our C drive itself has near 18 GB free. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T19:46:55Z</span>
+        <strong>noah.yasarturk</strong>: Meeting with Mussa went fantastically. Lasted half the time it usually does. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T19:47:50Z</span>
+        <strong>ckhan3</strong>: 18GB is fine I guess
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T19:48:16Z</span>
+        <strong>ckhan3</strong>: Ok what did he say?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T19:49:58Z</span>
+        <strong>noah.yasarturk</strong>: I’ll outline the necessary changes in the Smartsheet when I get home and then post them to slack. Very little to do.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-03T19:52:00Z</span>
+        <strong>noah.yasarturk</strong>: The main things are redoing the machine learning sequence diagram (again) and then outlining what a naive new user would need to do for our original 2 implemented features 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:14:50Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; hows the dashboard comin?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:16:56Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; I may have some ML questions for you tomorrow 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:17:13Z</span>
+        <strong>ckhan3</strong>: Sure
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:18:24Z</span>
+        <strong>ckhan3</strong>: Tableau table contains 2000 rows of data right now. Should be enough for Sean to populate beautiful charts. Let me know if you need any other columns. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:19:32Z</span>
+        <strong>ckhan3</strong>: Noah anything else left for me to do before Friday? Excluding ML?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:21:44Z</span>
+        <strong>noah.yasarturk</strong>: I’m currently looking it over. I’ll update you tonight so that you can read it tomorrow morning. If you can tell me how you found the SQL tables again (after Paul turned the system off, I lost it completely), that’d be great. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:22:19Z</span>
+        <strong>ckhan3</strong>: Search for MySQL workbench
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:22:57Z</span>
+        <strong>ckhan3</strong>: Connect to port 3306
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:24:15Z</span>
+        <strong>noah.yasarturk</strong>: Doing it now
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:24:35Z</span>
+        <strong>ckhan3</strong>: Then start a new query
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:25:23Z</span>
+        <strong>ckhan3</strong>: Type in SELECT * FROM employee
+Or, SELECT * FROM Tableau 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:25:30Z</span>
+        <strong>noah.yasarturk</strong>: Got it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:25:35Z</span>
+        <strong>noah.yasarturk</strong>: Dunno
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:25:39Z</span>
+        <strong>noah.yasarturk</strong>: *dunzo 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:26:09Z</span>
+        <strong>noah.yasarturk</strong>: I was using another application. Presidential Scholar everybody
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:26:51Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; expect an update before 10
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:29:58Z</span>
+        <strong>noah.yasarturk</strong>: Looking over everything I’d suppose the best thing you can do for us is determine whether we should implement some building visualization software (as in do you feel it realistic given time constraints) or just make the product show labeled clusters of bulbs via a GUI. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:40:46Z</span>
+        <strong>ckhan3</strong>: I never understood the idea of a bulb cluster so I can’t help much there. Sean and I spoke about creating a map of buildings in Tableau color coding them by consumption. That I know is definitely possible but whether Sean will be able to execute is something he can answer better 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T01:41:47Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5ES17S4&gt; how realistic do you feel it’d be able to simulate bulb clusters by Thursday mid-day?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T02:08:38Z</span>
+        <strong>noah.yasarturk</strong>: I realize this is past 10, but Cynthia if you so desire, you can do the testing-really just the record of the testing- for the two features we have implemented in accordance to the document.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T02:13:10Z</span>
+        <strong>ricky.le05</strong>: Umm, not likely unless I get on a hustle today and tomorrow, I’ll send you everything I currently know about the API tomorrow morning as I’m already in bed. Maybe you can steer me in the right direction then &lt;@UB7A4DLSK&gt; 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T02:59:42Z</span>
+        <strong>ricky.le05</strong>: And just to clarify clusters are just labeled groups of bulbs with a group ID and a group name, I just call them clusters because usually lights in a group are named clusters like on a scatter plot
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T14:48:50Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5ES17S4&gt; will we need to be on campus to connect the bulb bridge to our platform?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T14:49:58Z</span>
+        <strong>ricky.le05</strong>: Yes most likely 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T14:52:56Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; I’ll take care of the testing 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:19:14Z</span>
+        <strong>noah.yasarturk</strong>: Cynthia: Tableau table created on the server database. Columns are: UtilityProvider, StatementDate, TotalBillAmount, SiteName. I’m uploading the data csv file to our drive too for reference
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:19:26Z</span>
+        <strong>noah.yasarturk</strong>: Caio: &lt;http://Walktime.ngrok.io|Walktime.ngrok.io&gt; is the domain name. There’s a way to get &lt;http://walktime.cs.gsu.edu|walktime.cs.gsu.edu&gt; but it’s a step beyond my expertise involving something called “DNS CNAME”?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:19:58Z</span>
+        <strong>noah.yasarturk</strong>: (I&#39;m grabbing you guys&#39; junk and posting it here so that I only have to check one chat for work info)
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:22:47Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; Can I get a status update on the dashboard?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:23:16Z</span>
+        <strong>noah.yasarturk</strong>: I&#39;m going to start making that page myself today so that we can slam everything else in
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:24:12Z</span>
+        <strong>ssilvamarist</strong>: I&#39;m out with the fam right now for the fourth, I am going to learn how to connect it to our server when I get back home though 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:28:54Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5B3G71N&gt; do have have the dashboard connected to the data though? Is that data sufficient or do you need other columns? How many charts have you created?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:35:42Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; this whole MySQL workbench is pretty nifty
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:38:58Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; I may try and ‘clean’ the Utility data by removing all the Campus-wide Gas rows
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:47:01Z</span>
+        <strong>noah.yasarturk</strong>:  &lt;@UB73LGZQF&gt; what was the name again of the html bootstrap site you were using?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:48:24Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBK0QMAGJ/image_from_ios.jpg|Am I doing this wrong?&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T16:50:07Z</span>
+        <strong>noah.yasarturk</strong>: I dig the ‘welcome’ feature in the top left
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T22:33:03Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; leave the gas rows. That’s another kind of category at Sean can utilize 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-04T23:32:12Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB72FRHK9&gt; I just got back home. Going to try and connect the data to the dashboard now. Where are the columns for the data? I&#39;m on the server but can&#39;t find them unless I&#39;m blind and it&#39;s right in front of me 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:12:36Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5B3G71N&gt; It’s a MySQL Database. You can see the tables through MySQL workbench 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:13:17Z</span>
+        <strong>ckhan3</strong>: Search for MySQL workbench
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:13:38Z</span>
+        <strong>ckhan3</strong>: Type in SELECT * FROM employee
+Or, SELECT * FROM Tableau
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:14:09Z</span>
+        <strong>ckhan3</strong>: Connect to port 3306
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:14:17Z</span>
+        <strong>ssilvamarist</strong>: Okay thanks, I was still looking in the other one. I&#39;ll try to have those all linked by class tomorrow! 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:16:55Z</span>
+        <strong>ckhan3</strong>: The name of the database is overpowered and the name of the table is Tableau 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:23:41Z</span>
+        <strong>ckhan3</strong>: I will most probably not be in class tomorrow but Noah should be able to show you around 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T01:24:38Z</span>
+        <strong>noah.yasarturk</strong>: Affirmative 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T03:35:11Z</span>
+        <strong>ricky.le05</strong>: Should I bring the bridge and bulbs to campus tomorrow? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T10:58:33Z</span>
+        <strong>noah.yasarturk</strong>: Please do.
+I’ll be on the 2nd floor of Aderhold at 9:30 if anyone can make it.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T11:55:48Z</span>
+        <strong>ricky.le05</strong>: I should be able to make it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T14:10:42Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB73LGZQF&gt; I need access to the website creator ASAP
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T14:13:23Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5B3G71N&gt; if you need credentials to connect to DB from Tableau then username: sa
+Pwd: $DSIadmin#
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T14:14:24Z</span>
+        <strong>ckhan3</strong>: Also check the file config.php in the overpower folder to see what I used there. Hope this helps 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T19:11:41Z</span>
+        <strong>noah.yasarturk</strong>: Can everyone meet tomorrow at 9 at the Curve?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T19:12:13Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; any updates on the dashboard/Tableau integration?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T19:20:25Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB7A4DLSK&gt; I&#39;m trying to understand MySQL and the data right now
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T19:21:58Z</span>
+        <strong>noah.yasarturk</strong>: Talk with Caio about it; he’s making the webpages Tableau will be displayed through 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T20:10:48Z</span>
+        <strong>ckhan3</strong>: &lt;@UB5B3G71N&gt; ask me if you have any questions about the data. I maybe able to help
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T20:11:58Z</span>
+        <strong>ckhan3</strong>: For starters make three categories: CityOfGeorgia, Georgia Power, Georgia Natural Gas
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T20:12:19Z</span>
+        <strong>ckhan3</strong>: You can also form relationships between the site name column and amount column
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T21:40:26Z</span>
+        <strong>noah.yasarturk</strong>: My car is broken down, but I’m getting a mechanic to work on it immediately. I’ll keep you all posted. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T22:12:54Z</span>
+        <strong>ricky.le05</strong>: Class diagram edits are done, check over them whenever you can 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T23:33:11Z</span>
+        <strong>noah.yasarturk</strong>: Caio: Current site files are on the drive working on the user profile now 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-05T23:33:54Z</span>
+        <strong>demelocaio</strong>: Current site files are on the drive working on the user profile now 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:34:21Z</span>
+        <strong>noah.yasarturk</strong>: Car situation solved. I’ll be on campus by 9. @General who can meet when?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:34:58Z</span>
+        <strong>ricky.le05</strong>: I can meet whenever but the earlier the more caffeine 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:34:59Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; &lt;@UB73LGZQF&gt; any luck with the Tableau dashboard implementation?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:35:17Z</span>
+        <strong>noah.yasarturk</strong>: Si si this I can provide &lt;@UB5ES17S4&gt; just tell me what you’re into
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:38:55Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB7A4DLSK&gt; not yet, I have actually been at the car shop myself. Had to get new rims, 3 out of the 4 of mine got bent and weren&#39;t holding air. Gotta love car problems right lol 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:39:15Z</span>
+        <strong>noah.yasarturk</strong>: Whoa there
+$$$$
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:39:20Z</span>
+        <strong>ssilvamarist</strong>: I&#39;ll be there around 8:45 tmrw 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:39:27Z</span>
+        <strong>noah.yasarturk</strong>: Sounds good
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:39:47Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5ES17S4&gt; &lt;@UB73LGZQF&gt; can you guys do 9?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:39:59Z</span>
+        <strong>ricky.le05</strong>: :+1:
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:41:15Z</span>
+        <strong>demelocaio</strong>: No luck, but I’m really just working on making the skeleton 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T00:44:56Z</span>
+        <strong>noah.yasarturk</strong>: Perfect. &lt;@UB72FRHK9&gt; if you have time between now and 12 Friday, I’d appreciate if you can take a look at the sequence diagram I’m about to post in the notes section. I intend on correcting my mistake myself, but I’d like it if you could be able to evaluate whether I have in fact corrected it. The diagram is an example of ML. Mussa’s key discrepancies from mine were that the system initiated the process rather than the user and that the loop retrains the model repeatedly. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T02:32:27Z</span>
+        <strong>ckhan3</strong>: Ok I’ll go over it. I’ll also try to finish the testing tonight. It’s more complicated than I thought. If I give you the results will you be able to format it the way it is required? You as in universal you.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T03:46:32Z</span>
+        <strong>demelocaio</strong>: I will get on it tomorrow/collab 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T11:31:19Z</span>
+        <strong>ckhan3</strong>: &lt;@UB72FRHK9&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB72FRHK9/FBKB051GQ/image_from_ios.mov|Image from iOS&gt; and commented: &lt;@UB5B3G71N&gt; I’d be forever indebted if you can reduce the shine on my face. I’m just too tired to redo the whole thing again. :flushed:
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:20:36Z</span>
+        <strong>noah.yasarturk</strong>: Let’s meet in the library rather than the Curve. I’ll be on the 4th floor in a study room I’ll Specify. I’m working on setting our secondary router up
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:23:16Z</span>
+        <strong>noah.yasarturk</strong>: I’m in L403
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:24:02Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; Mussa has yet to recommend a ML package, but I’ve done some research. It’ll likely be the last step of implementation 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:26:07Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBL6Z924D/image.png|Time Until A5 Deadline 1&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:26:56Z</span>
+        <strong>ckhan3</strong>: I’ll implement ML this weekend.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:27:18Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB72FRHK9&gt; what&#39;s the exact name of the server? Trying to officially connect the data now and I might need to start from scratch. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:27:25Z</span>
+        <strong>ckhan3</strong>: I’ll reserve the last weekend for any touch ups we may have to do 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:27:53Z</span>
+        <strong>ckhan3</strong>: The Database is ‘Overpowered’
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:27:57Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; from scratch?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:28:12Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB5B3G71N&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB5B3G71N/FBM52NC78/image_from_ios.jpg|Image from iOS&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:28:13Z</span>
+        <strong>ckhan3</strong>: Table name ‘Tableau’
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:28:26Z</span>
+        <strong>ckhan3</strong>: Hold on
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:28:56Z</span>
+        <strong>ckhan3</strong>: Server is most probably localhost
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:29:20Z</span>
+        <strong>ckhan3</strong>: Username is root
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:29:27Z</span>
+        <strong>ckhan3</strong>: Password is blank
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:29:28Z</span>
+        <strong>demelocaio</strong>: Be on campus in an hour 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:31:07Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB72FRHK9&gt; didn&#39;t work 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:31:31Z</span>
+        <strong>ckhan3</strong>: give me a min I’m logging in
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:33:30Z</span>
+        <strong>ckhan3</strong>: That’s the same login I used to connect to the Webserver 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:33:34Z</span>
+        <strong>ckhan3</strong>: &lt;@UB72FRHK9&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB72FRHK9/FBL735C93/image_from_ios.jpg|Image from iOS&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:35:12Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; we might need to go ahead and do that through the Remote Desktop.
+
+Is anyone else signed in to it?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:35:41Z</span>
+        <strong>ckhan3</strong>: I am. I’m working on it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:36:21Z</span>
+        <strong>ssilvamarist</strong>: I&#39;m on campus right now, doing it through the remote desktop 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:38:47Z</span>
+        <strong>ckhan3</strong>: It’s not taking a blank password
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:39:04Z</span>
+        <strong>ckhan3</strong>: Let me see if I can set a password 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:39:22Z</span>
+        <strong>ckhan3</strong>: Use the text file in the meantime to generate your charts
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:39:32Z</span>
+        <strong>ckhan3</strong>: I’ll post it in C
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:42:48Z</span>
+        <strong>ssilvamarist</strong>: Where is the text file? &lt;@UB72FRHK9&gt; 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:43:55Z</span>
+        <strong>ckhan3</strong>: In C:
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:44:02Z</span>
+        <strong>ckhan3</strong>: It’s a csv file
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:45:27Z</span>
+        <strong>noah.yasarturk</strong>: Almost got everyone&#39;s script ready
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:55:24Z</span>
+        <strong>ckhan3</strong>: Sean did you install any drivers?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:55:46Z</span>
+        <strong>ssilvamarist</strong>: No should I do that? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:58:01Z</span>
+        <strong>ckhan3</strong>: I did it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:58:47Z</span>
+        <strong>ckhan3</strong>: I could connect using the following:
+
+Server: localhost
+User: admin
+Password: walktime
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T12:59:38Z</span>
+        <strong>ckhan3</strong>: That’s a user I created granting super user privileges. Do you should be able to access any table and perform any queries 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:00:06Z</span>
+        <strong>ckhan3</strong>: I’m logging out now in case someone else needs to login in
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:00:46Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB72FRHK9&gt; it&#39;s working! I&#39;ll see if I&#39;m able to just drag the data over my charts 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:01:28Z</span>
+        <strong>ckhan3</strong>: Sure
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:07:09Z</span>
+        <strong>ckhan3</strong>: I added all sql I’ve used so far in GitHub 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:07:09Z</span>
+        <strong>slackbot</strong>: Our GitHub Link is: &lt;https://github.com/overpowered-gsu&gt;
+        
+          <div class="attachments">
+            
+            <div class="attachment">
+              <div class="title">overpowered-gsu</div>
+              <a href="https://github.com/overpowered-gsu">
+                https://github.com/overpowered-gsu
+              </a>
+
+            </div>
+            
+          </div>
+
+
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:37:02Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; you mentioned in the past Microsoft SQL servers have an embedded email feature. Can you provide any more info on that?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:37:53Z</span>
+        <strong>ckhan3</strong>: Well since we’re not using Microsoft anymore, I’ll check to see if MySQL has such features 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:38:06Z</span>
+        <strong>ckhan3</strong>: When do you need this info?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:40:33Z</span>
+        <strong>noah.yasarturk</strong>: Not necessary. I can research it. If you have time and can send a link to the notes and guides section, that’d be great
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:54:03Z</span>
+        <strong>ricky.le05</strong>: noahsleep
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:54:03Z</span>
+        <strong>slackbot</strong>: Noah Yasarturk, Please get some sleep!
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T13:55:30Z</span>
+        <strong>ricky.le05</strong>: &lt;@UB5ES17S4&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB5ES17S4/FBM69K3E3/image_from_ios.jpg|Image from iOS&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:21:39Z</span>
+        <strong>demelocaio</strong>: In converting the website to php did you edit the CSS at all? &lt;@UB72FRHK9&gt; 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:22:39Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; I’m gonna explain this to Caio
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:32:05Z</span>
+        <strong>demelocaio</strong>: Ignoring the shade
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:42:59Z</span>
+        <strong>ckhan3</strong>: Thanks 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:50:16Z</span>
+        <strong>demelocaio</strong>: &lt;@UB7A4DLSK&gt; you forgot your mouse!! 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:50:52Z</span>
+        <strong>noah.yasarturk</strong>: You still in the room?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:51:10Z</span>
+        <strong>demelocaio</strong>: Yeah 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T14:51:14Z</span>
+        <strong>noah.yasarturk</strong>: Comin
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T15:05:15Z</span>
+        <strong>noah.yasarturk</strong>: Tasks for now:
+&lt;@UB5ES17S4&gt; 
+-figure out how to parse Philips JSON objects to extract bulb ID etc
+-figure out how to construct and append ID array/ possibly clone dummy bulbs
+&lt;@UB73LGZQF&gt; continue site development; work with Sean to implement Tableau for one hour of the AOL HQ building
+&lt;@UB5B3G71N&gt; 
+-Tableau it
+-video editing
+&lt;@UB72FRHK9&gt; 
+-possibly investigate email feature
+-look at ML chart
+Me:
+-update MySQL tables
+-PHPs
+-integrate
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T16:49:39Z</span>
+        <strong>demelocaio</strong>: Profile page is live it’s quite a few form entries like update pw,email and whatnot. I’m just not sure on form submission like how Cynthia made the login and register pages do. I’ll probably need help but maybe not. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T16:50:31Z</span>
+        <strong>noah.yasarturk</strong>: I’ll look into that promptly. Were you able to integrate Tableau from &lt;@UB5B3G71N&gt; ?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T16:56:29Z</span>
+        <strong>demelocaio</strong>: No I found a 4 step guide on doing so but I couldn’t quite get it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T17:32:34Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; I still need to give you the testing materials right?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T17:39:56Z</span>
+        <strong>noah.yasarturk</strong>: If you can run the test and publish it to the final doc, that’d be great
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T17:40:22Z</span>
+        <strong>ckhan3</strong>: Ok
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:06:20Z</span>
+        <strong>noah.yasarturk</strong>: Logging on to Remote Desktop 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:10:15Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB73LGZQF&gt; I can see you’ve put together the skeleton, but I think the HTML referencing the CSS may have an error from the display
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:11:01Z</span>
+        <strong>demelocaio</strong>: On all the pages? Or specifically profile? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:11:19Z</span>
+        <strong>noah.yasarturk</strong>: Should I be going to the static url instead of localhost?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:11:30Z</span>
+        <strong>demelocaio</strong>: Yeah
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:11:59Z</span>
+        <strong>demelocaio</strong>: &lt;http://Walktime.cs.gsu.edu/overpowered/index.php|Walktime.cs.gsu.edu/overpowered/index.php&gt; 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:12:18Z</span>
+        <strong>demelocaio</strong>: If you don’t want to set up wamp and ngrok, I think that’s the address 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:12:49Z</span>
+        <strong>demelocaio</strong>: I think localhost just leads to the /www folder and not within overpowered 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:14:06Z</span>
+        <strong>noah.yasarturk</strong>: Yup same deal
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:14:20Z</span>
+        <strong>noah.yasarturk</strong>: Looking into it
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:14:32Z</span>
+        <strong>demelocaio</strong>: Dang I’ll be on in ~40 minutes too 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:22:35Z</span>
+        <strong>noah.yasarturk</strong>: Figured out the issue.
+At the top of the dashboard.php and others, you reference assets/css/styles.css as your stylesheet/CSS file. This is the “look” of the HTML, the style tag external file. styles.css is empty, so I think somehow we may have deleted its contents (the styling).
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:33:02Z</span>
+        <strong>ricky.le05</strong>: &lt;https://i.imgur.com/SR8KKgs.png&gt;
+        
+          <div class="attachments">
+            
+            <div class="attachment">
+              <div class="title"></div>
+              <a href="">
+                
+              </a>
+
+            </div>
+            
+          </div>
+
+
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:39:50Z</span>
+        <strong>ricky.le05</strong>: To append the ID array just use push() and pop() to add or remove last element in array , to delete any element you use ‘delete arrayName[Index];’
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:50:02Z</span>
+        <strong>demelocaio</strong>: &lt;@UB7A4DLSK&gt; did you fix it? It’s working on my screen 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:50:51Z</span>
+        <strong>noah.yasarturk</strong>: Nah I did nothing to it. Can someone else confirm the issue?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:51:49Z</span>
+        <strong>demelocaio</strong>: Was the website in full screen mode? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:52:06Z</span>
+        <strong>noah.yasarturk</strong>: Negative. Will check
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T18:52:26Z</span>
+        <strong>demelocaio</strong>: &lt;@UB73LGZQF&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB73LGZQF/FBMC59S23/image_from_ios.jpg|Image from iOS&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:07:22Z</span>
+        <strong>noah.yasarturk</strong>: Logging on to Remote Desktop 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:12:12Z</span>
+        <strong>noah.yasarturk</strong>: What this means is your system has the styles.css file, but the walktime server doesn’t, so fixing this will be as simple as copying your styles.css into the currently empty styles.css. This is good news
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:13:41Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBLEV3U6R/image_from_ios.jpg|Current issue; no css&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:13:51Z</span>
+        <strong>demelocaio</strong>: Ahhh it’s so ugly get it away 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:13:55Z</span>
+        <strong>noah.yasarturk</strong>: Apologies; my image isn’t sending
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:14:47Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBMD8F65C/image_from_ios.jpg|Current issue; no css&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:14:49Z</span>
+        <strong>noah.yasarturk</strong>: Yup and because the drop down menu style is also in the empty css file, I can’t access/test the dropdown menu functions with Tableau
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:16:12Z</span>
+        <strong>noah.yasarturk</strong>: Disconnecting from VPN
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:22:24Z</span>
+        <strong>noah.yasarturk</strong>: Gonna take a nap, wake up, fix the issues we’ll be graded on (class diagram, ML sequence diagram), and hopefully by then you guys will have this fixed so that I can implement more functions. For now, I just have some JavaScript methods that I need to be able to play with Tableau and whatnot more for. Debating whether to try and tackle the email alert system, ML, or bulb integration first. See you guys in two hours tops
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:22:49Z</span>
+        <strong>demelocaio</strong>: Alright should be fixed
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:22:54Z</span>
+        <strong>noah.yasarturk</strong>: Checking
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:23:41Z</span>
+        <strong>noah.yasarturk</strong>: Incredible &lt;@UB73LGZQF&gt; 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:25:07Z</span>
+        <strong>noah.yasarturk</strong>: What does your dashboard look like?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:25:14Z</span>
+        <strong>ricky.le05</strong>: noahsleep
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:25:15Z</span>
+        <strong>slackbot</strong>: REMINDER: Noah needs to sleep.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:27:14Z</span>
+        <strong>noah.yasarturk</strong>: I see I see
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:28:01Z</span>
+        <strong>noah.yasarturk</strong>: See you in a little over an hour
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:31:39Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBL3VSW1J/image_from_ios.jpg|My current dashboard&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:42:43Z</span>
+        <strong>demelocaio</strong>: That’s how it’s supposed to, drop down for cycling between graphs, and then some bulb brightness options at the bottom 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T19:43:15Z</span>
+        <strong>demelocaio</strong>: Just reserved space for the infamous  tableau 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T20:20:21Z</span>
+        <strong>ssilvamarist</strong>: Just did all the video editing while in the car, can&#39;t post on YouTube or the drive yet bc of service but I will once I get to where we&#39;re going! 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T20:42:28Z</span>
+        <strong>noah.yasarturk</strong>: I’m up again
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:31:56Z</span>
+        <strong>ricky.le05</strong>: Anything else you&#39;d like me to do currently &lt;@UB7A4DLSK&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:33:39Z</span>
+        <strong>noah.yasarturk</strong>: Have you considered the combining of the API functions and connections classes?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:34:16Z</span>
+        <strong>ricky.le05</strong>: In the class diagram? If so I thought I uploaded the edits
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:35:10Z</span>
+        <strong>noah.yasarturk</strong>: Haven’t checked. Will trust you. Hmmmm
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:41:01Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5ES17S4&gt;
+Two options:
+1) Re-evaluate relationships between class diagram classes (some would be more than simple associations)
+2) Research machine learning packages that accept number of floors and hourly wattage and output a prediction model/register aberrant wattage input
+
+And thank you
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T21:54:21Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB73LGZQF&gt; can you stick Sean’s chart in to the site for now as a worst case scenario if I can’t get to making the Tableau work dynamically?
+
+I’m trying to prepare for deadline.
+I need to determine whether I should concentrate more on commenting in the final hours or coding
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:01:39Z</span>
+        <strong>noah.yasarturk</strong>: I&#39;m currently redoing the ML sequence diagram; before that, I need to identify the general type of ML we&#39;ll be doing (linear regression, logistic regression, neural network, etc)
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:11:13Z</span>
+        <strong>demelocaio</strong>: Yeah I’ll be home in less than an hour 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:11:15Z</span>
+        <strong>noah.yasarturk</strong>: Currently I&#39;m thinking logistic regression may be the way to go considering that we would be classifying deviant bulb clusters in a binary fashion.
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:16:32Z</span>
+        <strong>noah.yasarturk</strong>: Considering what a Decision Tree model might look like
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:21:24Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB7A4DLSK&gt; uploaded a file: &lt;https://walktime-error.slack.com/files/UB7A4DLSK/FBMEZ9C0P/image_from_ios.jpg|Thinking machine learning through&gt;
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:22:41Z</span>
+        <strong>noah.yasarturk</strong>: I&#39;d think K-nearest neighbors would be pointless
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:25:21Z</span>
+        <strong>noah.yasarturk</strong>: Support Vector Machines would also give us an effective binary separation between over-consuming clusters and okay ones
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:27:36Z</span>
+        <strong>noah.yasarturk</strong>: I think Support Vector Machines is the way to go. What would you say &lt;@UB72FRHK9&gt;?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:29:38Z</span>
+        <strong>demelocaio</strong>: Where can I find Sean’s chart? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:29:54Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; ^?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:30:34Z</span>
+        <strong>demelocaio</strong>: I think a screen cap will do too
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:31:07Z</span>
+        <strong>noah.yasarturk</strong>: For worst case scenario yes
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:32:35Z</span>
+        <strong>noah.yasarturk</strong>: I don&#39;t see comments being part of our grade as of right now
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:44:23Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; depends on what the attributes are and what the labels are
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:45:34Z</span>
+        <strong>ckhan3</strong>: Testing it is the only way to know the accuracy for sure. We will try out a few algorithms and then compare 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:45:45Z</span>
+        <strong>ckhan3</strong>: What’s the status on the dashboard?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:46:36Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB7A4DLSK&gt; do you want just a screenshot for it now? Also have you made any of that data yet? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:48:08Z</span>
+        <strong>noah.yasarturk</strong>: I’m handling that which we’ll be graded for first: the redone ML sequence diagram and class relationships.
+&lt;@UB5B3G71N&gt; remind me what I needed to add? The wattage itself by hour on average?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:49:22Z</span>
+        <strong>noah.yasarturk</strong>: As in from the training set?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:52:38Z</span>
+        <strong>ssilvamarist</strong>: &lt;@UB7A4DLSK&gt; ya the wattage. &lt;@UB72FRHK9&gt; do we have any energy consumption data? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:53:11Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB73LGZQF&gt; can you add the brightness slider, and off/on switch, as well as a label up top pertaining to cluster ID, as well as string output section for current daily  wattage inside the &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt; below the drop down menu on the dashboard?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:53:49Z</span>
+        <strong>demelocaio</strong>: Yes I’ll get on that 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:53:56Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt; we’ve got that building data that we can simply divide by 365 and then by 12, assuming a uniform hourly consumption
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:54:00Z</span>
+        <strong>demelocaio</strong>: Can you take a look at draft 5 see if the test case I wrote looks good 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:54:19Z</span>
+        <strong>noah.yasarturk</strong>: Yessir 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:54:37Z</span>
+        <strong>noah.yasarturk</strong>: Then I’ll split up the MySQL table for Sean
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:57:05Z</span>
+        <strong>ssilvamarist</strong>: Are we just going with those dummy charts then for now on the web page? Anything I need to do on my end for those other than that script? 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:57:37Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; I feel you’re spread too thin 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:57:40Z</span>
+        <strong>demelocaio</strong>: If you can figure out how to implement the script yeah but if not just send a jpeg of the chart 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:57:49Z</span>
+        <strong>ckhan3</strong>: Dashboard was the star of this week
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:58:08Z</span>
+        <strong>ckhan3</strong>: Every effort should go towards ensuring that that’s successful 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:58:23Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB5B3G71N&gt;Until I can work it, yes. If you’d like to learn JavaScript functions to work on the Tableau, that’d be great. There’s a guide in the notes and guide section
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:58:38Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; likely
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:58:48Z</span>
+        <strong>ckhan3</strong>: And it’s 7 now. What remains of the documentation?
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:59:19Z</span>
+        <strong>noah.yasarturk</strong>: Class diagram relationships, ML sequence diagram, link and steps to use SW
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:59:35Z</span>
+        <strong>ckhan3</strong>: I’ll go over the ML sequence diagram and I’ll provide you with PHPUnit tests by the end of the night. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T22:59:37Z</span>
+        <strong>ricky.le05</strong>: I’m working on the relationships as we speak 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:00:28Z</span>
+        <strong>ssilvamarist</strong>: I&#39;ll look at the script when I get home from dinner and see if I can figure it out. 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:00:35Z</span>
+        <strong>noah.yasarturk</strong>: &lt;@UB72FRHK9&gt; if you could do the sequence diagram, I can do JavaScript
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:01:01Z</span>
+        <strong>ckhan3</strong>: &lt;@UB7A4DLSK&gt; ok
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:06:44Z</span>
+        <strong>noah.yasarturk</strong>: The actor to initiate the ML is the system clock, not the user
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:07:14Z</span>
+        <strong>noah.yasarturk</strong>: It’ll be an asynchronous arrow (arrowhead not filled in)
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:07:39Z</span>
+        <strong>noah.yasarturk</strong>: From there the two other objects are the database and ML algorithm 
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:08:11Z</span>
+        <strong>noah.yasarturk</strong>: Database is also considered an actor (stick figure above)
+        
+      </div>
+    
+      <div class="message">
+        <span class="timestamp">2018-07-06T23:53:20Z</span>
+        <strong>noah.yasarturk</strong>: logging on to remote desktop to partition table for you &lt;@UB5B3G71N&gt;. my math is (kWh*1000)/(365*24) = W/h
+        
+      </div>
+    
+
+  </section>
+</body>
+</html>
